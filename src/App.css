@@ -1,0 +1,169 @@
+.app {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #e27f5b 100%);
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.app h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.message {
+  background: rgba(255,255,255,0.9);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 400px;
+  color: #333;
+  font-weight: bold;
+}
+
+.auth {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login, .signup {
+  background: rgba(255,255,255,0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+.login h2, .signup h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login input, .signup input, .signup select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.login button, .signup button {
+  width: 100%;
+  padding: 12px;
+  background: #324392;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+  transition: background 0.3s;
+}
+
+.login button:hover, .signup button:hover {
+  background: #5a6fd8;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #667eea;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+
+.link-btn:hover {
+  color: #5a6fd8;
+}
+
+.atm {
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.95);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+.menu {
+  display: grid;
+  gap: 15px;
+}
+
+.menu button {
+  padding: 15px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.menu button:hover {
+  background: #5a6fd8;
+}
+
+.balance, .withdraw, .deposit, .statement {
+  text-align: center;
+}
+
+.balance h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.withdraw input, .deposit input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.withdraw button, .deposit button, .balance button, .statement button {
+  padding: 12px 20px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background 0.3s;
+}
+
+.withdraw button:hover, .deposit button:hover, .balance button:hover, .statement button:hover {
+  background: #5a6fd8;
+}
+
+.statement ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  background: #f8f9fa;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.statement li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.statement li:last-child {
+  border-bottom: none;
+}
