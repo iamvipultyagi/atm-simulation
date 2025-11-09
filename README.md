@@ -57,23 +57,4 @@ A **React-based ATM Simulation Website** that replicates the essential functions
 - Add routing for multiple screens.
 - Improve UI with modern component libraries.
 
----
 
-## ▶️ Getting Started
-### Installation
-```
-npm install
-```
-### Run Development Server
-```
-npm start
-```
-### Build for Production
-```
-npm run build
-```
-
----
-
-## 📄 License
-This project is for learning and personal development.
