@@ -16,11 +16,11 @@ A **React-based ATM Simulation Website** that replicates the essential functions
 
 ---
 ## 🏷️ Tags
-React 
-JavaScript 
-ATM Simulation 
-Frontend Project 
-Beginner-Friendly 
+- React 
+- JavaScript 
+- ATM Simulation 
+- Frontend Project 
+- Beginner-Friendly 
 
 
 ---
