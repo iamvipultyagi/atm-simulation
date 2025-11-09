@@ -15,7 +15,15 @@ A **React-based ATM Simulation Website** that replicates the essential functions
 - **Component-Based UI** built with reusable React components.
 
 ---
+## 🏷️ Tags
+React 
+JavaScript 
+ATM Simulation 
+Frontend Project 
+Beginner-Friendly 
 
+
+---
 ## 🛠️ Tech Stack
 - **React (JavaScript)** – App logic and UI
 - **CSS Modules / App.css** – Styling
